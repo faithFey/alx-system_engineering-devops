@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod 755 current directory 
+chmod +x [find . -type d -exec chmod a+x {}+ ]  
