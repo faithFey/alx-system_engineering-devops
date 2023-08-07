@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "<inputString>" | tr -d 'cC'
+echo "Chicago" | tr -d 'cC'
