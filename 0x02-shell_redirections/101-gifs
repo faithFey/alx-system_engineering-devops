@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -type f -iname "*.gif" |sed 's/\(.*\/\)\(.*\)\.gif$/\2/g' |sort -f |tr '\n' '\0' |xargs -0 -l{}basename -- {}
